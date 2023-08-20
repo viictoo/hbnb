@@ -17,26 +17,24 @@ header {
   margin-left: 20px;
 }
 @media (max-width: 600px) {
-
-    header {
-        height:50px;
-        background-size: 40px;
-        width: 100%;
-    }
-    .logo {
-        height: 40px;
-        margin-left: 30%;
-        width: 100%;
-    }
+  header {
+    height: 50px;
+    background-size: 40px;
+    width: 100%;
   }
-  /* phablet */
+  .logo {
+    height: 40px;
+    margin-left: 30%;
+    width: 100%;
+  }
+}
+/* phablet */
 @media (max-width: 768px) {
-
-    header {
-        height:50px;
-        width: 100%;
-    }
-    .logo {
-        width: 100%;
-    }
+  header {
+    height: 50px;
+    width: 100%;
   }
+  .logo {
+    width: 100%;
+  }
+}
