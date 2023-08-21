@@ -57,11 +57,7 @@
   height: 48px;
   width: 20%;
   border: 0;
-  /* border: 1px; */
   border-radius: 4px;
-  /* display: flex;
-    align-items: center;
-    justify-content: center; */
   cursor: pointer;
   opacity: 1;
   transition: opacity 0.3s ease;
@@ -97,19 +93,15 @@
 @media (max-width: 600px) {
   .filters {
     flex-direction: row;
-    /* background-color: #654242; */
     height: auto; /* Allow content to expand vertically */
     width: 98%;
     border: none;
-    /* flex-direction: column; */
     margin-left: 0%;
     margin-right: 0%;
     padding: 0%;
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-content: center;
-    /* background-color: aqua; */
   }
 
   .filters h4 {
@@ -119,7 +111,8 @@
 
   .locations,
   .amenities {
-    width: 40%; /* Divide the width equally for larger screens */
+    /* Divide the width equally for larger screens */
+    width: 40%;
   }
 
   .locations {
@@ -157,19 +150,15 @@
 @media (max-width: 768px) {
   .filters {
     flex-direction: row;
-    /* background-color: aqua; */
     height: auto; /* Allow content to expand vertically */
     width: 98%;
     border: none;
-    /* flex-direction: column; */
     margin-left: 0%;
     margin-right: 0%;
     padding: 0%;
     display: flex;
-    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-evenly;
     align-content: flex-start;
-    /* background-color: aqua; */
   }
 }
